@@ -1,0 +1,22 @@
+database:
+  type: sqlite
+  sqlite:
+    file: data.db
+  mysql:
+    host: localhost
+    port: 3306
+    database: cozy
+    username: root
+    password: ""
+    pool-size: 10
+    use-ssl: false
+
+relay:
+  enabled: true
+  url: "wss://cozy.cyzlone.de"
+  reconnect-delay-seconds: 30
+
+editor:
+  url: "https://editor.cozy.cyzlone.de"
+
+server-name: "My Server"

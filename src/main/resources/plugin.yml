@@ -1,0 +1,20 @@
+name: CozyCore
+main: dev.cozy.core.CozyCore
+api-version: '1.21'
+version: 1.0.0
+description: Core plugin for the Cozy plugin ecosystem
+authors: [PLACEHOLDER]
+
+commands:
+  cozy:
+    aliases: [cozycore, cc]
+    permission: cozycore.use
+    description: Cozy Core command
+
+permissions:
+  cozycore.use:
+    default: op
+  cozycore.editor:
+    default: op
+  cozycore.admin:
+    default: op
