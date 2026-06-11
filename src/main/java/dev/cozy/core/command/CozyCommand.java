@@ -73,7 +73,7 @@ public class CozyCommand implements CommandExecutor, TabCompleter {
 
         sessionRequester.requestSession(player,
                 token -> {
-                    String url = configManager.getString("editor.url", "https://cozy.cyzlone.de/editor")
+                    String url = configManager.getString("editor.url", "https://editor.cozy.cylone.de")
                             + "?session=" + token;
                     Component message = Component.text("[✎ Open Editor]")
                             .color(NamedTextColor.GREEN)

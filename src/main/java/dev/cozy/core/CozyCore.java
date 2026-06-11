@@ -66,7 +66,7 @@ public final class CozyCore extends JavaPlugin {
 
         boolean relayEnabled = configManager.getBoolean("relay.enabled", true);
         if (relayEnabled) {
-            String relayUrl = configManager.getString("relay.url", "wss://cozy.cyzlone.de");
+            String relayUrl = configManager.getString("relay.url", "wss://cozy.cylone.de");
             this.sessionRequester = new SessionRequester(relayUrl, this);
             this.webModule = new WebModule(this);
         }

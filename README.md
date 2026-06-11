@@ -52,11 +52,11 @@ database:
 
 relay:
   enabled: true
-  url: "wss://cozy.cyzlone.de"
+  url: "wss://cozy.cylone.de"
   reconnect-delay-seconds: 30
 
 editor:
-  url: "https://editor.cozy.cyzlone.de"
+  url: "https://editor.cozy.cylone.de"
 ```
 
 ## API (for plugin developers)
